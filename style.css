@@ -14,8 +14,10 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #374785;
+  background-color: #205072;
+  background-image: linear-gradient(#205072, #329D9C);
   opacity: 0;
+  z-index: 555;
 }
 
 #container {
@@ -26,8 +28,7 @@ body {
   min-height: 100vh;
   font-size: 1rem;
   font-family: 'Share Tech Mono', monospace;
-  color: #374785;
-  opacity: .8;
+  color: #329D9C;
 }
 
 #coming-soon {

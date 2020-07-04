@@ -54,4 +54,6 @@ function createWords() {
       for(let i = 0; i < codeWords.length; ++i) {
         codeWords[i].style = "display: none;";
       }
+
+      changeFontColor();
   }
